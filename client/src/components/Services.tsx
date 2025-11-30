@@ -98,7 +98,7 @@ function Card({ item }: { item: typeof services[0] }) {
 
 export function Services() {
   return (
-    <section id="servicos" className="py-32 bg-background relative overflow-hidden">
+    <section id="servicos" className="py-20 bg-background relative overflow-hidden">
        {/* Background Decoration */}
        <div className="absolute top-0 right-0 -mr-40 -mt-40 h-[500px] w-[500px] rounded-full bg-primary/5 blur-[100px]" />
        <div className="absolute bottom-0 left-0 -ml-40 -mb-40 h-[500px] w-[500px] rounded-full bg-accent/5 blur-[100px]" />
