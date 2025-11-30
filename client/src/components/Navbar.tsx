@@ -27,7 +27,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="24h Turismo" className="h-12 w-auto object-contain" />
+          <img src={logo} alt="24h Turismo" className="h-24 w-auto object-contain" />
         </a>
 
         {/* Desktop Menu */}
