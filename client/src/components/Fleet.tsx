@@ -57,8 +57,8 @@ function FleetCard({ car, index }: { car: typeof fleet[0]; index: number }) {
 
       <div className="flex-1 px-6 md:px-12">
         <h3 className="font-display text-3xl font-bold text-white md:text-5xl">{car.title}</h3>
-        <p className="mt-6 text-lg text-gray-400">{car.desc}</p>
-        <ul className="mt-8 space-y-4">
+        <p className="mt-3 text-lg text-gray-400">{car.desc}</p>
+        <ul className="mt-6 space-y-4">
           {car.features.map((feature) => (
             <li key={feature} className="flex items-center gap-3 text-gray-300">
               <CheckCircle2 className="text-primary" />
@@ -75,7 +75,7 @@ export function Fleet() {
   return (
     <section className="relative py-20 bg-background/50">
       <div className="container mx-auto px-4">
-        <div className="mb-20 text-center">
+        <div className="mb-12 text-center">
           <h2 className="font-display text-4xl font-bold text-white md:text-6xl">
             Nossa <span className="text-gradient">Frota</span>
           </h2>
