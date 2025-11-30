@@ -104,7 +104,7 @@ export function Services() {
        <div className="absolute bottom-0 left-0 -ml-40 -mb-40 h-[500px] w-[500px] rounded-full bg-accent/5 blur-[100px]" />
 
       <div className="container mx-auto px-4">
-        <div className="mb-20 text-center">
+        <div className="mb-8 text-center">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

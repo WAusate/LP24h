@@ -40,7 +40,7 @@ function FleetCard({ car, index }: { car: typeof fleet[0]; index: number }) {
     <motion.div
       ref={ref}
       style={{ opacity }}
-      className={`flex flex-col items-center gap-12 py-16 md:flex-row ${
+      className={`flex flex-col items-center gap-8 py-4 md:flex-row ${
         index % 2 === 1 ? "md:flex-row-reverse" : ""
       }`}
     >
@@ -75,7 +75,7 @@ export function Fleet() {
   return (
     <section className="relative py-20 bg-background/50">
       <div className="container mx-auto px-4">
-        <div className="mb-12 text-center">
+        <div className="mb-6 text-center">
           <h2 className="font-display text-4xl font-bold text-white md:text-6xl">
             Nossa <span className="text-gradient">Frota</span>
           </h2>
