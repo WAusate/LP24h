@@ -26,9 +26,6 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <span className="mb-4 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-medium uppercase tracking-wider text-white backdrop-blur-md">
-            24h Turismo e Executivo
-          </span>
           <h1 className="font-display text-5xl font-bold tracking-tight text-white sm:text-7xl md:text-8xl">
             Viaje com <br />
             <span className="text-gradient">Excelência</span>
