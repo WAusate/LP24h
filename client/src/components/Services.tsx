@@ -90,6 +90,10 @@ function Card({ item }: { item: typeof services[0] }) {
           </p>
           <h3 className="font-display text-3xl font-bold text-white">{item.title}</h3>
           <p className="mt-4 text-sm text-gray-300">{item.description}</p>
+          
+          <button className="mt-6 rounded-full bg-primary/90 px-6 py-2 text-xs font-bold uppercase tracking-wider text-background backdrop-blur-sm transition-transform hover:scale-105 hover:bg-primary">
+            Saiba Mais
+          </button>
         </div>
       </div>
     </motion.div>
