@@ -13,10 +13,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
-      <About />
       <div id="frota">
         <Fleet />
       </div>
+      <About />
       <Testimonials />
       
       <section id="contato" className="py-20 border-t border-white/10 bg-black/20">
